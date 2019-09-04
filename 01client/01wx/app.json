@@ -1,5 +1,6 @@
 {
   "pages": [
+    "study/study/study",
     "pages/trends/trends",
     "pages/index/index",
     "pages/logs/logs"
