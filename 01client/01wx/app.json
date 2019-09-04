@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/trends/trends",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/trends/trends",
+    "pages/logs/logs",
+    "pages/job/job"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,12 +12,15 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#D24940",
+    "color": "#b1b5bd",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "imgs/dongtaiwenben1.png",
-        "selectedIconPath": "imgs/dongtaiwenben2.png"
+        "pagePath": "pages/job/job",
+        "text": "工作",
+        "iconPath": "imgs/job.png",
+        "selectedIconPath": "imgs/job_select.png"
       },
       {
         "pagePath": "pages/trends/trends",

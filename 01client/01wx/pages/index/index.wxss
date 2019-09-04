@@ -1,0 +1,90 @@
+/**index.wxss**/
+.top {
+  display: flex;
+  position: relative;
+  
+  width: 100%;
+  height: 400rpx;
+}
+.image {
+  width: 100%;
+  height: 400rpx;
+}
+.img {
+  width: 100%;
+  height: 400rpx;
+}
+.logo {
+  position: absolute;
+  left: 15%;
+  bottom: -20rpx;
+  width: 70%;
+  height: 80rpx;
+  display: flex;
+  border-radius: 50rpx;
+  background-color:white;
+  box-shadow: 10rpx 50rpx 80rpx #ccc;
+}
+.idlogo {
+  height: 80rpx;
+  width: 65%;
+  background-color: #D24940;
+  border-radius: 50rpx;
+  box-shadow: -1rpx 1rpx 3rpx #D24940;
+  text-align: center;
+  font-size: 35rpx;
+  line-height: 80rpx;
+  color: white;
+  font-weight: 550;
+}
+.phone {
+  height: 80rpx;
+  width: 50%;
+  text-align: center;
+  font-size: 35rpx;
+  line-height: 80rpx;
+  color: #e6e6e6;
+  font-weight: 550;
+}
+.button {
+  margin: 0 auto;
+  height: 80rpx;
+  width: 80%;
+  background-color: #D24940;
+  border-radius: 15rpx;
+  margin-top: 100rpx;
+  color: white;
+  text-align: center;
+  font-size: 35rpx;
+  line-height: 80rpx;
+}
+
+.item {
+  margin-top: 100rpx;
+}
+.itemView {
+  margin: 0 auto;
+  width: 60%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 50rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+  color: #cdcdcd;
+  font-size: 30rpx;
+  display: flex;
+}
+.icon {
+  width: 60rpx;
+  height: 60rpx;
+  color: #bfbfbf;
+}
+.input {
+  margin-left: 20rpx;
+}
+.bottom {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}

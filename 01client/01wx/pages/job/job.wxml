@@ -1,0 +1,92 @@
+<!--index.wxml-->
+
+<view class="contain">
+  
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo" >
+    <image class="logo" src="../../imgs/1.png"></image>
+    <view class="txt"> 通知公告</view>
+  </navigator>
+
+    <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+    <image class="logo" src="../../imgs/2.png"></image>
+    <view class="txt"> 三会一课</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/3.png"></image>
+    <view class="txt"> 主题党日</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/4.png"></image>
+    <view class="txt"> 民主生活会</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/5.png"></image>
+    <view class="txt"> 组织生活会</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/6.png"></image>
+    <view class="txt"> 民主评议</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/7.png"></image>
+    <view class="txt"> 谈心谈话</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/8.png"></image>
+    <view class="txt"> 视频会议</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/9.png"></image>
+    <view class="txt"> 互动直播</view>
+  </navigator>
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/10.png"></image>
+    <view class="txt"> 志愿服务</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/11.png"></image>
+    <view class="txt"> 公益事业</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/12.png"></image>
+    <view class="txt"> 投票调查</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/13.png"></image>
+    <view class="txt"> 党建地图</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/14.png"></image>
+    <view class="txt"> 党建考察</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/15.png"></image>
+    <view class="txt"> 党建缴纳</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/16.png"></image>
+    <view class="txt"> 公益捐款</view>
+  </navigator>
+
+  <navigator class='box usermott ' url='../logs/logs' open-type="navigateTo">
+  <image class="logo" src="../../imgs/1.png"></image>
+    <view class="txt"> 党建文库</view>
+  </navigator>
+
+  </view>
+<navigator class='box text ' url='../index/index' open-type="redirectTo" bindtap="switchTab">
+     退出登录
+    </navigator>
