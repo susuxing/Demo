@@ -87,6 +87,4 @@
   </navigator>
 
   </view>
-<navigator class='box text ' url='../index/index' open-type="redirectTo" bindtap="switchTab">
-     退出登录
-    </navigator>
+

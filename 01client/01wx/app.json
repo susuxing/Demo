@@ -1,15 +1,18 @@
 {
   "pages": [
     "pages/index/index",
+    "myuser/main/main",
+    "study/study/study",
     "pages/trends/trends",
+    
     "pages/logs/logs",
     "pages/job/job"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#D24940",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "backgroundColor": "#fff",
@@ -29,23 +32,24 @@
         "selectedIconPath": "imgs/dongtaiwenben2.png"
       },
       {
-        "pagePath": "pages/trends/trends",
+        "pagePath": "pages/job/job",
         "text": "动态",
-        "iconPath": "imgs/dongtaiwenben1.png",
-        "selectedIconPath": "imgs/dongtaiwenben2.png"
+        "iconPath": "imgs/job.png",
+        "selectedIconPath": "imgs/job_select.png"
       },
       {
-        "pagePath": "pages/trends/trends",
+        "pagePath": "study/study/study",
         "text": "动态",
-        "iconPath": "imgs/dongtaiwenben1.png",
-        "selectedIconPath": "imgs/dongtaiwenben2.png"
+        "iconPath": "imgs/studywrite.png",
+        "selectedIconPath": "imgs/study.png"
       },
       {
-        "pagePath": "pages/trends/trends",
+        "pagePath": "myuser/main/main",
         "text": "动态",
-        "iconPath": "imgs/dongtaiwenben1.png",
-        "selectedIconPath": "imgs/dongtaiwenben2.png"
+        "iconPath": "imgs/people.png",
+        "selectedIconPath": "imgs/user_red.png"
       }
+      
     ]
   },
   "sitemapLocation": "sitemap.json"

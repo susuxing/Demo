@@ -91,5 +91,5 @@
       <view class="right">></view>
     </view>
   </view>
-  <navigator url="../user/user" open-type="redirectTo" class="quit">退出登录</navigator>
+  <navigator url="../../pages/index/index" open-type="redirectTo" class="quit">退出登录</navigator>
 </view>
