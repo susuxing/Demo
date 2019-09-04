@@ -1,0 +1,47 @@
+<!--pages/trends/trends.wxml-->
+<view class="container">
+
+  <view class="head">
+    <view wx:if="{{newstate==0}}">
+      <view class="headitem" wx:for="{{headItem}}" wx:key="index" wx:for-item="titleName">
+        <view class="itemview" bindtap="onclickItem" data-num="{{index}}">
+          <view class="{{resetindex==index?'headviewselect':'headview'}}">{{titleName.title}}</view>
+          <view class="headline" wx:if="{{resetindex==index}}"></view>
+        </view>
+      </view>
+    </view>
+    <view class="search" wx:if="{{newstate==1}}">
+      <view class="back" bindtap="onclickFind" data-find="{{0}}">
+        <image class="imgsty1" src="../../imgs/xiaochu.png"></image>
+      </view>
+      <view class="in">
+        <input></input>
+      </view>
+    </view>
+
+    <view class="find" bindtap="onclickFind" data-find="{{1}}">
+      <image class="imgsty" src="../../imgs/sousuo.png"></image>
+    </view>
+  </view>
+
+
+
+  <view class="lunbo">
+    <swiper indicator-dots='true' indicator-active-color='#E33A35' autoplay='true' duration='{{1000}}' interval='{{2000}}' circular='true'>
+      <view wx:for='{{imgUrls}}' wx:key="index">
+        <swiper-item>
+          <image src='{{item}}'></image>
+        </swiper-item>
+      </view>
+    </swiper>
+  </view>
+
+  <view class="context" wx:for="{{contexts}}" wx:key="index" wx:for-item="words">
+    <view class="word">
+      <view class="wordfont">{{words.word}}</view>
+      <view class="wordtime">{{words.time}}</view>
+    </view>
+    <view class="contextline"></view>
+  </view>
+
+</view>

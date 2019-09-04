@@ -1,0 +1,111 @@
+/* pages/trends/trends.wxss */
+
+.head {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.headitem {
+  height: 100%;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.itemview {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+
+.headview {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.headviewselect {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e33a35;
+}
+
+.headline {
+  height: 5px;
+  width: 40rpx;
+  background-color: #e33a35;
+}
+
+.imgsty {
+  height: 25px;
+  width: 25px;
+}
+.back{
+  height: 30px;
+  width: 30px;
+}
+.search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 30px;
+}
+.imgsty1{
+  height: 15px;
+  width: 15px;
+}
+.in{
+  width: 85%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+.lunbo {
+  height: 100%;
+  width: 100%;
+}
+
+.context {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+
+.word {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.wordfont {
+  font-size: 15px;
+}
+
+.wordtime {
+  color: #959595;
+  font-size: 13px;
+}
+
+.contextline {
+  height: 2px;
+  width: 100%;
+  background-color: #e1e1e1;
+}
