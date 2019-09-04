@@ -1,0 +1,142 @@
+.body{
+width:750rpx;
+background-color: lightgrey;
+}
+.swiper-head{
+  width: 750rpx;
+  height:400rpx;
+}
+.content{
+width: 750rpx;
+height: 380rpx;
+background-color: white;
+}
+.content-top{
+  width:750rpx;
+  height:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.content-bottom{
+  width:750rpx;
+  height:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item{
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+.icon{
+  width:100rpx;
+  height:100rpx;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  border-radius: 50%;
+  background-color: red;
+}
+.img-style{
+  width:60rpx;
+  height:60rpx;
+  }
+.icon-des{
+  color: lightgrey;
+  font-size: 30rpx;
+}
+.swiper-box{
+  width: 750rpx;
+  height:240rpx;
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.sp{
+  width:750rpx;
+  height:80rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  
+}
+.spfont{
+  height:80rpx;
+  font-size: 28rpx;
+}
+.swiper-left{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+.swiper-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ 
+}
+.img-voice{
+  width:60rpx;
+  height: 40rpx;
+}
+/* 推荐资讯栏 */
+.recommend{
+  width:750rpx;
+  height:40px;  
+  margin-bottom: 2rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  
+}
+.border{
+  border-left: solid 7rpx red;
+}
+.more{  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.more-font{
+  color:lightgrey;
+  font-size: 35rpx; 
+
+}
+/* 国办印发意见栏 */
+.content-item{
+  width: 750rpx;
+  height:200rpx;  
+  display: flex;
+  flex-direction: column;
+  background-color: white;  
+}
+.content-item-des{
+  margin-top:30rpx;
+  margin-bottom: 15rx;
+  font-size: 35rpx;
+  color: lightgrey;
+  border-bottom: solid 4rpx lightgrey;
+}
+.margin-top{
+  margin-top:15rpx;
+}
+.footer{
+  width:750rpx;
+  height: 80rpx;
+  font-size: 40rpx;
+  text-align: center;
+  color: lightgrey;  
+  background-color: white;
+  border-bottom: solid 4rpx lightgrey;
+}
+
+
+
+

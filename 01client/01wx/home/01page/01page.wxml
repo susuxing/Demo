@@ -1,0 +1,268 @@
+<view class="body">
+  <scroll-view style='width:100%; height: 100%; ' scroll-y="true">
+    <swiper indicator-dots='true' autoplay='true' indicator-active-color='#E33A35' duration='{{500}}' interval='{{1000}}'>
+      <view wx:for='{{imgUrls}}'>
+        <swiper-item>
+          <image class='img swiper-head' src='{{item}}'></image>
+        </swiper-item>
+      </view>
+    </swiper>
+    <view class='content'>
+      <view class='content-top'>
+      <!-- 工作督办 -->
+        <view class="item">
+          <view class='icon' bindtap="towork">
+            <image class=' img-style' src='../../imgs/工作.png'></image>
+          </view>
+          <view class='icon-des'>工作督办</view>
+        </view>
+        <!-- 民主评议 -->
+        <view class="item">
+          <view class='icon' bindtap="todemocratic">
+            <image class=' img-style' src='../../imgs/信息.png'></image>
+          </view>
+          <view class='icon-des'>民主评议</view>
+        </view>
+        <!-- 文档库 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/文档.png'></image>
+          </view>
+          <view class='icon-des'>文档库</view>
+        </view>
+        <!-- 党建考察 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/考察.png'></image>
+          </view>
+          <view class='icon-des'>党建考察</view>
+        </view>
+        <!-- 我是党员 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/党员.png'></image>
+          </view>
+          <view class='icon-des'>我是党员</view>
+        </view>
+
+      </view>
+      <view class='content-bottom'>
+      <!-- 组织会议 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/会议.png'></image>
+          </view>
+          <view class='icon-des'>组织会议</view>
+        </view>
+        <!-- 党务知识 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/知识.png'></image>
+          </view>
+          <view class='icon-des'>党务知识</view>
+        </view>
+        <!-- 考试中心-->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/考试.png'></image>
+          </view>
+          <view class='icon-des'>考试中心</view>
+        </view>
+        <!-- 关系转接 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../../imgs/关系.png'></image>
+          </view>
+          <view class='icon-des'>关系转接</view>
+        </view>
+        <!-- 生态园 -->
+        <view class="item">
+          <view class='icon'>
+            <image class=' img-style' src='../. ./imgs/生态.png'></image>
+          </view>
+          <view class='icon-des'>生态园</view>
+        </view>
+      </view>
+    </view>
+
+<!-- 动画部分 -->
+
+
+
+    <view class='recommend'>
+      <view class="border">推荐资讯</view>
+      <view class="more">
+        <view class="more-font">更多</view>
+        <view>
+          <image class='img-voice' src='../../imgs/大于.png'></image>
+        </view>
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        国办印发意见 加快发展流通促进商业消费
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日 635阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        甘肃：立行立改 即知即改
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日 363阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        新华社评论员:对接群众关切抓实主题教育
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日967阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        北京石景山开展冰雪体育场馆消防演练机器人协同作战
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日670阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        浙江海宁:"四高”模式牢筑防火墙
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日589阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        盲人种粮模范”点亮”的脱贫路广西兴安县村民文教书致富不忘带领乡亲们一-起富
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日612阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        七十载光影里的动人旋律一记庆祝中华人 民共和国成立70周年经典电影音乐会
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日620阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        祝福祖国一国家广 电总局举办优秀电视剧百日展播活动
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日561阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        以警告黎巴嫩真主党“保持冷静”后者:等着瞧
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日490阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        图解:“共和国勋章"和国家荣誉称号授予标准、提名范围是什么?
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日451阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        38个低保指标被谁截留
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日590阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        [党建锐评]中美竞争:在保持战略定力中把握战略主动
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日652阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        继承和发展马克思主义建党学说在新时代把党的自我革命推向深入
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日692阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        中共中央、国务院、中央军委将颁发"庆祝中华人民共和国成立70周年"纪念章
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日741阅读 0评论论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        新华时评:西方势力拿《中英联合声明》插手香港根本站不住脚,
+      </view>
+      <view class='content-item-des'>
+        201 9年08月29日652阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        潘汉年:中共隐蔽战线的杰出代表
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日692阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        在交流互鉴中拥抱世界多彩文明
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日590阅读 0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        (中国稳健前行)厚植文化自信增强战略定力
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日614阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        自治区党委常委会召开”不忘初心、牢记使命”专题民主生活会
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日663阅读0评论
+      </view>
+    </view>
+    <view class="content-item">
+      <view class="margin-top">
+        国庆70周年将举行盛大阅兵式和群众游行!
+      </view>
+      <view class='content-item-des'>
+        2019年08月29日369阅读0评论
+      </view>
+    </view>
+    <view class="footer">
+
+
+      我也是有底线的
+
+    </view>
+  </scroll-view>
+</view>

@@ -13,7 +13,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.switchTab({
-      url: '../job/job',
+      url: '../../home/01page/01page',
       success(){
       }
     })

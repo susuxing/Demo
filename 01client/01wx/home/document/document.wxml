@@ -1,0 +1,7 @@
+<!--pages/document/document.wxml-->
+<view>
+<view class="header">
+<view>文档库</view>
+<view><image src='../../大于.png'></image></view>
+</view>
+</view>

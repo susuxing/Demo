@@ -6,7 +6,11 @@
     "pages/trends/trends",
     
     "pages/logs/logs",
-    "pages/job/job"
+    "pages/job/job",
+    "home/01page/01page",
+    "home/work/work",
+    "home/democratic/democratic",
+    "home/document/document"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,10 +24,10 @@
     "color": "#b1b5bd",
     "list": [
       {
-        "pagePath": "pages/job/job",
-        "text": "工作",
-        "iconPath": "imgs/job.png",
-        "selectedIconPath": "imgs/job_select.png"
+        "pagePath": "home/01page/01page",
+        "text": "首页",
+        "iconPath": "imgs/home.png",
+        "selectedIconPath": "imgs/home_selected.png"
       },
       {
         "pagePath": "pages/trends/trends",

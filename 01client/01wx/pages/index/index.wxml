@@ -22,7 +22,7 @@
     </view>
 </view>
    
-  <button class='box button' url='../job/job' open-type="redirectTo" bindtap="bindViewTap">
+  <button class='box button' url='../../home/01page/01page' open-type="redirectTo" bindtap="bindViewTap">
      登录 
   </button>
 
