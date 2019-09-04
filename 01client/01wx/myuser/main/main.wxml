@@ -1,0 +1,95 @@
+
+<view class="body">
+  <navigator url="../user/user" open-type="navigateTo" class="top" >
+    <view class="imgbox">
+      <image src="../../imgs/pic.jpg" class="img"></image>
+    </view>
+    <view>
+      <view class="name">云俊</view>
+      <view class="work">运营部</view>
+    </view>
+    <view class="right1">></view>
+  </navigator>
+  <!-- 我的收藏，我的评论，浏览历史 -->
+  <view class="nav">
+    <navigator url="../new/new" open-type="navigateTo">
+      <view><image src="../../imgs/collection.png" class="navimg"></image></view>
+      <view class="navwords">我的收藏</view>
+    </navigator>
+
+    <navigator url="../new/new" open-type="navigateTo">
+      <view><image src="../../imgs/comment.png" class="navimg"></image></view>
+      <view class="navwords">我的评论</view>
+    </navigator>
+
+    <navigator url="../new/new" open-type="navigateTo">
+      <view><image src="../../imgs/history.png" class="navimg"></image></view>
+      <view class="navwords">浏览历史</view>
+    </navigator>
+  </view>
+  <!-- 长栏目 -->
+  <view class="long">
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">组织工作</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">我的组织</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">我的历程</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">每日签到</view>
+      <view class="right1">签到送积分></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">党员承诺</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">关系转接</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">书记信箱</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice" bindtap='phoneCall'>
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">Call我吧</view>
+      <view class="right">></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="lattice">
+      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">在线客服</view>
+      <view class="right">></view>
+    </view>
+  </view>
+  <navigator url="../user/user" open-type="redirectTo" class="quit">退出登录</navigator>
+</view>

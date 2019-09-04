@@ -1,0 +1,52 @@
+/* user/user.wxss */
+.head {
+  width: 100%;
+  height: 400rpx;
+}
+.bgimg{
+  width: 100%;
+  height: 100%;
+}
+.imgbox{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 270rpx;
+  margin-top: -220rpx;
+}
+.img{
+  border-radius: 110rpx;
+  width: 100%;
+  height: 100%;
+  border: 3px solid white;
+}
+.name{
+  width: 100%;
+  height: 30rpx;
+  font-weight: 600;
+  font-size: 50rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  color: rgb(61, 60, 60);
+  margin-bottom: 100rpx;
+}
+.words{
+  height: 100rpx;
+  color: rgb(61, 60, 60);
+  padding-left: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.words-1{
+  width: 200rpx;
+}
+.words-2{
+  width: 200rpx;
+  margin-left: 50rpx;
+}
+.line{
+  background-color: darkgrey;
+  height: 1px;
+  width: 80%;
+  margin-left: 250rpx;
+}

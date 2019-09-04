@@ -1,0 +1,36 @@
+<!--个人信息-->
+<view class="body">
+  <view class="head"><image src="../../imgs/userbg.png" class="bgimg"></image></view>
+  <view class="imgbox"><image src="../../imgs/pic.jpg" class="img"></image></view>
+  <view class="name">Jeremy Lin</view>
+  <view class="words">
+    <view class="words-1">手机号</view>
+    <view class="words-2">11772283</view>
+  </view>
+  <view class="line"></view>
+
+  <view class="words">
+    <view class="words-1">身份证</view>
+    <view class="words-2">null</view>
+  </view>
+  <view class="line"></view>
+
+  <view class="words">
+    <view class="words-1">类别</view>
+    <view class="words-2">正式党员</view>
+  </view>
+  <view class="line"></view>
+
+  <view class="words">
+    <view class="words-1">党内职务</view>
+    <view class="words-2">暂未设置</view>
+  </view>
+  <view class="line"></view>
+
+  <view class="words">
+    <view class="words-1">工作岗位</view>
+    <view class="words-2">暂未设置</view>
+  </view>
+</view>
+
+

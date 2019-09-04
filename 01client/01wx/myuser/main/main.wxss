@@ -1,0 +1,101 @@
+.body{
+ width: 100%;
+ height: 100%;
+ background-color: rgb(226, 223, 223);
+}
+.top{
+  width: 100%;
+  height: 180rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30rpx;
+  align-items: center;
+  
+}
+.img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.imgbox{
+  margin-right: 30rpx;
+  width: 110rpx;
+  height: 120rpx;
+}
+.name{
+  font-family: 幼圆;
+  font-size: 40rpx;
+}
+.work{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.nav{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-top: 20rpx;
+}
+.navimg{
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  margin-left: 40rpx;
+}
+.navwords{
+  font-size: 30rpx;
+}
+.long{
+  width: 100%;
+  height: 730rpx;
+  background-color: white;
+  margin-top: 20rpx;
+}
+.lattice{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.latticeimg{
+  width: 35rpx;
+  height: 35rpx;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+}
+.latticewords{
+  font-size: 30rpx;
+}
+.right{
+  margin-left: 500rpx;
+  color: darkgray;
+  font-size: 30rpx; 
+}
+.right1{
+  margin-left: 365rpx;
+  color: darkgray;
+  font-size: 30rpx; 
+}
+.line{
+  height: 3rpx;
+  width: 95%;
+  background-color: darkgray;
+  margin-left: 10rpx;
+}
+.quit{
+  width: 95%;
+  height: 100rpx;
+  background-color: white;
+  font-size: 35rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+  margin-left: 20rpx;
+  line-height: 100rpx;
+}
