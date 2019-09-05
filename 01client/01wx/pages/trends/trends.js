@@ -4,6 +4,7 @@ Page({
   data: {
     resetindex: 0,
     newstate: 0,
+    second: 0,
     headItem: [{
       id: 0,
       title: "全部"
@@ -108,7 +109,8 @@ Page({
   onclickItem: function (res) {
     let id = res.currentTarget.dataset.num;
     this.setData({
-      resetindex: id
+      resetindex: id,
+      second: id
     });
   },
   onclickFind: function (res) {
