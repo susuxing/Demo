@@ -36,7 +36,7 @@
     </swiper>
   </view>
 
-  <view class="context" wx:for="{{contexts}}" wx:key="index" wx:for-item="words" wx:if="{{3*second<index}}>
+  <view class="context" wx:for="{{contexts}}" wx:key="index" wx:for-item="words" wx:if="{{3*second<index}}">
     <view class="word">
       <view class="wordfont">{{words.word}}</view>
       <view class="wordtime">{{words.time}}</view>
