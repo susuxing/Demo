@@ -28,7 +28,7 @@
   </button>
 
   <view class="bottom">
-   <view style="color:#D24940;font-size:35rpx;">免注册点击体验</view>
+   <view style="color:#D24940;font-size:35rpx;"url='../../home/01page/01page' open-type="redirectTo" bindtap="bindViewTap">免注册点击体验</view>
    <view style="color:#cdcdcd;font-size:35rpx;">忘记密码</view>
   </view>
 </view>

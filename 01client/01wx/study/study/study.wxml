@@ -2,69 +2,69 @@
 <view class="container">
 
   <view class="studyBox">
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
       <image class="logo" src="../../imgs/study1.png"></image>
       <view class="txt"> 线下培训</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
       <image class="logo" src="../../imgs/study2.png"></image>
       <view class="txt"> 网络课程</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study3.png"></image>
       <view class="txt"> 师资表</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study4.png"></image>
       <view class="txt"> 资料中心</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study5.png"></image>
       <view class="txt"> 廉政建设</view>
     </view>
   </view>
 
       <view class="studyBox">
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
       <image class="logo" src="../../imgs/study6.png"></image>
       <view class="txt"> 活动剪影</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
       <image class="logo" src="../../imgs/study7.png"></image>
       <view class="txt"> 警示案例</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study8.png"></image>
       <view class="txt"> 中心组学习</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study9.png"></image>
       <view class="txt"> 主题活动</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study10.png"></image>
       <view class="txt"> 党务知识</view>
     </view>
   </view>
 
   <view class="studyBox">
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
       <image class="logo" src="../../imgs/study11.png"></image>
       <view class="txt"> 考试中心</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott"  bindtap='tocultivate'>
       <image class="logo" src="../../imgs/study12.png"></image>
       <view class="txt"> 红歌精选</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study13.png"></image>
       <view class="txt"> 党建文章</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study14.png"></image>
       <view class="txt"> 奖罚公示</view>
     </view>
-    <view class="usermott" bindtap='toOther'>
+    <view class="usermott" bindtap='tocultivate'>
     <image class="logo" src="../../imgs/study15.png"></image>
       <view class="txt"> 党员论坛</view>
     </view>
@@ -75,14 +75,14 @@
     <view class="contentTitle">
       <view class="redLine"></view>
       <view class="cultivateT">线下培训</view>
-      <view class="more" bindtap='toOther'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
+      <view class="more" bindtap='toLoad'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
-    <view class="ContentL" bindtap='toOther'>
+    <view class="ContentL" bindtap='toLoad'>
       <view class="font">社会主义核心价值观及企业化</view>
       <view class="adress">无锡科教产业园3号楼</view>
       <view class="time">2019-08-29 19：44</view>
     </view>
-    <view class="Content" bindtap='toOther'>
+    <view class="Content" bindtap='toLoad'>
       <view class="font">解读《中国共产党纪录处分条例》</view>
       <view class="adress">无锡科教产业园3号楼</view>
       <view class="time">2019-08-29 19：44</view>
@@ -94,9 +94,9 @@
     <view class="contentTitle">
       <view class="redLine"></view>
       <view class="cultivateT">廉政建设</view>
-      <view class="more" bindtap='toOther'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
+      <view class="more" bindtap='toLoad'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
-    <view class="Content" bindtap='toOther'>
+    <view class="Content" bindtap='toLoad'>
       <view class="font">坚持政治建设统领 深化全面...</view>
     </view>
   </view>
@@ -106,9 +106,9 @@
     <view class="contentTitle">
       <view class="redLine"></view>
       <view class="cultivateT">活动剪影</view>
-      <view class="more" bindtap='toOther'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
+      <view class="more" bindtap='toLoad'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
-    <view class="Content" bindtap='toOther'>
+    <view class="Content" bindtap='toLoad'>
       <image class="contentImg" src="../../imgs/study16.jpg"></image>
       <view class="font">北京世园会迎来“阿富汗国家日”</view>
     </view>
@@ -116,12 +116,12 @@
 
   
   <view class="backColor">
-    <view class="contentTitle" bindtap='toOther'>
+    <view class="contentTitle" bindtap='toLoad'>
       <view class="redLine"></view>
       <view class="cultivateT">深入学习</view>
       <view class="more">更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
-    <view class="Content" bindtap='toOther'>
+    <view class="Content" bindtap='toLoad'>
       <image class="contentImg" src="../../imgs/study17.jpg"></image>
       <view class="font">习近平在中央党校</view>
     </view>
@@ -132,9 +132,9 @@
     <view class="contentTitle">
       <view class="redLine"></view>
       <view class="cultivateT">中心学习</view>
-      <view class="more" bindtap='toOther'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
+      <view class="more" bindtap='toLoad'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
-    <view class="Content" bindtap='toOther'>
+    <view class="Content" bindtap='toLoad'>
       <view class="font">习近平总书记在中央全面深化改革委员会第三次</view>
       <view class="adress">科技产业园3号楼微盛</view>
       <view class="time">2019-08-30 19：49</view>
@@ -146,30 +146,12 @@
     <view class="contentTitle">
       <view class="redLine"></view>
       <view class="cultivateT">党务知识</view>
-      <view class="more" bindtap='toOther'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
+      <view class="more" bindtap='toLoad'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
-    <view class="Content" bindtap='toOther'>
+    <view class="Content" bindtap='toLoad'>
       <view class="font">社会主义核心价值观</view>
       <view class="adress">社会主义核心价值观</view>
     </view>
-</view>
-
-
-
-
-
-
-
+    </view>
   </view>
-
-
-
-
-
-
-
-
-
-
-
 </view>

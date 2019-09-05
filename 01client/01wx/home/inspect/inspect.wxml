@@ -1,0 +1,5 @@
+<!--党建考察页home/inspect/inspect.wxml-->
+<view class='title'>
+    <view class='icons' bindtap="to01page"><image src='../../imgs/xiaoyu.png' class='icon'></image></view> 
+  <view class="content">党建考察</view>
+</view>

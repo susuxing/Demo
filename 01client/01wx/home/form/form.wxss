@@ -1,0 +1,28 @@
+/* 组织会议页home/form/form.wxss */
+.title{
+  height:150rpx;
+  width:100%;    
+  background-color: red;
+  padding-left: 5%;
+  color :white;
+  font-size: 50rpx;
+  
+  display: flex;
+}
+.content{
+line-height: 200rpx;
+margin-left: 30rpx;
+}
+.icons{
+  height:60rpx;
+  width:40rpx;   
+  align-self: bottom;
+  padding-top: 12rpx;
+  margin-top: 60rpx;
+  
+}
+.icon{
+  font-size: 60rpx;
+  width:50rpx;
+  height:50rpx;
+}

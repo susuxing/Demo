@@ -1,4 +1,4 @@
-// pages/document/document.js
+// home/form/form.js
 Page({
 
   /**
@@ -14,7 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  to01page: function () {
+  tohome: function () {
     wx.navigateTo({
       url: '../home/01page',
     })

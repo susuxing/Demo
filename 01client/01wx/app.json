@@ -1,13 +1,14 @@
 {
   "pages": [
-    
     "pages/index/index",
+    "study/upload/upload",
+    "study/cultivate/cultivate",
     "myuser/main/main",
     "pages/trends/trends",
     "pages/logs/logs",
     "study/study/study",
     "pages/job/job",
-    "home/01page/01page",
+    "home/home/01page",
     "home/work/work",
     "home/democratic/democratic",
     "home/document/document"
@@ -24,7 +25,7 @@
     "color": "#b1b5bd",
     "list": [
       {
-        "pagePath": "home/01page/01page",
+        "pagePath": "home/home/01page",
         "text": "首页",
         "iconPath": "imgs/home.png",
         "selectedIconPath": "imgs/home_selected.png"

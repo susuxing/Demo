@@ -1,5 +1,24 @@
-<view class="first">
-    这是一个跳转页面
+<view class="pages">
+  <view class="first">
+    <view class="left">
+      <view class="font1">社会主义核心价值观及企业文化</view>
+      <view class="font2">无锡科教产业园3号楼</view>
+      <view class="font3">2019-08-29</view>
+    </view>
+    <view class="right">
+      <view class="join">未参加</view>
+    </view>
   </view>
 
+  <view class="first">
+    <view class="left">
+      <view class="font1">解读《中国共产党纪录处分条例》</view>
+      <view class="font2">无锡科教产业园3号楼</view>
+      <view class="font3">2019-08-29</view>
+    </view>
+    <view class="right">
+      <view class="join">未参加</view>
+    </view>
+  </view>
+</view>
 

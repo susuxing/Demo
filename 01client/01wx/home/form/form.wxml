@@ -1,0 +1,7 @@
+<!--组织会议页home/form/form.wxml-->
+<view class='title'>
+  <view class='icons' >
+    <image src='../../imgs/xiaoyu.png' class='icon' bindtap="tohome"></image>
+  </view>
+  <view class="content">组织会议</view>
+</view>

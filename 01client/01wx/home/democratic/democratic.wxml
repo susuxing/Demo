@@ -1,4 +1,5 @@
-<!--pages/01page/democratic/democratic.wxml-->
+<!--民主评议页
+    pages/01page/democratic/democratic.wxml-->
 <view>
  <scroll-view class='headerBox' scroll-x="true">
     <view class='headerItem' wx:for="{{topics}}" wx:key="index" wx:for-item="topic">

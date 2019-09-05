@@ -1,9 +1,49 @@
-.first{
-  font-size: 25px;
+.pages{
+  margin: 0rpx;
+  padding: 0rpx 30rpx;
+  height: 1000rpx;
+  background-color: rgb(245, 245, 245);
 }
-
-
-
+.first{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 30rpx;
+}
+.left{
+  width: 90%;
+  height: 200rpx;
+}
+.font1{
+  font-size: 36rpx;
+  height: 50rpx;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10rpx;
+}
+.font2{
+  font-size: 35rpx;
+  color: grey;
+  margin-top: 10rpx;
+}
+.font3{
+  font-size: 34rpx;
+  color: grey;
+  margin-top: 10rpx;
+}
+.right{
+}
+.join{
+  text-align: center;
+  width: 170rpx;
+  background-color: rgb(56, 216, 56);
+  color: white;
+  transform: rotate(45deg);
+  margin-top: 8%;
+  margin-left: 25%;
+  font-size: 35rpx;
+}
 
 
 

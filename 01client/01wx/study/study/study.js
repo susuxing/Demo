@@ -18,9 +18,14 @@ Page({
       indexSelect: id
     });
   },
-  toOther: function () {
+  tocultivate: function () {
     wx.navigateTo({
       url: '../cultivate/cultivate',
+    })
+  },
+  toLoad: function () {
+    wx.navigateTo({
+      url: '../upload/upload',
     })
   }
 })

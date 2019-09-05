@@ -1,7 +1,23 @@
-<!--pages/document/document.wxml-->
-<view>
-<view class="header">
-<view>文档库</view>
-<view><image src='../../大于.png'></image></view>
+<!-- 文档库页    
+  custom   定制  default 默认  
+  "navigationStyle": "custom" -->
+<view class='title'>
+  <image src='../../imgs/xiaoyu.png' class='icon' bindtap="to01page"></image>
+  文档库
 </view>
+
+<view class='body'>
+  <view class="headerItem">
+    <view class='item'>文档库</view>
+    <view>
+      <image src='../../imgs/dayu.png' class='icon'></image>
+    </view>
+  </view>
+  <view>
+    <view class='content'>
+      <image src='../../imgs/document.png' class='icon' class='icon-s'></image>
+      <view>没有文档</view>
+    </view>
+    
+  </view>
 </view>

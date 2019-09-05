@@ -38,11 +38,12 @@ background-color: white;
   align-items: center;
   align-self: center;
   border-radius: 50%;
-  background-color: red;
+  background-color:#f00;
 }
 .img-style{
   width:60rpx;
   height:60rpx;
+  margin-left: 20%;
   }
 .icon-des{
   color: lightgrey;

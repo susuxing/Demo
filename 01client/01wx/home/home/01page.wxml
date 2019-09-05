@@ -9,83 +9,82 @@
     </swiper>
     <view class='content'>
       <view class='content-top'>
-      <!-- 工作督办 -->
+        <!-- 工作督办 -->
         <view class="item">
           <view class='icon' bindtap="towork">
-            <image class=' img-style' src='../../imgs/工作.png'></image>
+            <image class=' img-style' src='../../imgs/work.png'></image>
           </view>
           <view class='icon-des'>工作督办</view>
         </view>
         <!-- 民主评议 -->
         <view class="item">
           <view class='icon' bindtap="todemocratic">
-            <image class=' img-style' src='../../imgs/信息.png'></image>
+            <image class=' img-style' src='../../imgs/information.png'></image>
           </view>
           <view class='icon-des'>民主评议</view>
         </view>
         <!-- 文档库 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/文档.png'></image>
+          <view class='icon' bindtap="todocument">
+            <image class=' img-style' src='../../imgs/document.png'></image>
           </view>
           <view class='icon-des'>文档库</view>
         </view>
         <!-- 党建考察 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/考察.png'></image>
+          <view class='icon' bindtap='toinspect'>
+            <image class=' img-style' src='../../imgs/kaocha.png'></image>
           </view>
           <view class='icon-des'>党建考察</view>
         </view>
         <!-- 我是党员 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/党员.png'></image>
+          <view class='icon' bindtap="tomyuser">
+            <image class=' img-style' src='../../imgs/dangyuan.png'></image>
           </view>
           <view class='icon-des'>我是党员</view>
         </view>
-
       </view>
       <view class='content-bottom'>
-      <!-- 组织会议 -->
+        <!-- 组织会议 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/会议.png'></image>
+          <view class='icon' bindtap="toform">
+            <image class=' img-style' src='../../imgs/huiyi.png'></image>
           </view>
           <view class='icon-des'>组织会议</view>
         </view>
         <!-- 党务知识 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/知识.png'></image>
+          <view class='icon' bindtap="toparty">
+            <image class=' img-style' src='../../imgs/zhishi.png'></image>
           </view>
           <view class='icon-des'>党务知识</view>
         </view>
         <!-- 考试中心-->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/考试.png'></image>
+          <view class='icon' bindtap="totest">
+            <image class=' img-style' src='../../imgs/kaoshi.png'></image>
           </view>
           <view class='icon-des'>考试中心</view>
         </view>
         <!-- 关系转接 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../../imgs/关系.png'></image>
+          <view class='icon' bindtap="torelation">
+            <image class=' img-style' src='../../imgs/guanxi.png'></image>
           </view>
           <view class='icon-des'>关系转接</view>
         </view>
         <!-- 生态园 -->
         <view class="item">
-          <view class='icon'>
-            <image class=' img-style' src='../. ./imgs/生态.png'></image>
+          <view class='icon' bindtap="tolife">
+            <image class=' img-style' src='../../imgs/stai.png'></image>
           </view>
           <view class='icon-des'>生态园</view>
         </view>
       </view>
     </view>
 
-<!-- 动画部分 -->
+    <!-- 动画部分 -->
 
 
 
@@ -94,7 +93,7 @@
       <view class="more">
         <view class="more-font">更多</view>
         <view>
-          <image class='img-voice' src='../../imgs/大于.png'></image>
+          <image class='img-voice' src='../../imgs/dayu.png'></image>
         </view>
       </view>
     </view>
