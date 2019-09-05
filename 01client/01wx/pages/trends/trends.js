@@ -113,6 +113,11 @@ Page({
       second: id
     });
   },
+  onclicktip:function(){
+    wx.redirectTo({
+      url: '../logs/logs',
+    });
+  },
   onclickFind: function (res) {
     let change = res.currentTarget.dataset.find;
     this.setData({
