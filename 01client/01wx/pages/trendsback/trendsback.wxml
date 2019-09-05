@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <view class="backto">
+    <view>等待更新</view>
+  </view>
+
+</view>

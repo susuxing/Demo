@@ -1,5 +1,5 @@
 <!--logs.wxml-->
 <view class="container log-list">
 <view></view>
-  <view>等待更新</view>
+   
 </view>
