@@ -77,7 +77,7 @@
   font-size: 30rpx; 
 }
 .right1{
-  margin-left: 365rpx;
+  margin-left: 350rpx;
   color: darkgray;
   font-size: 30rpx; 
 }

@@ -1,5 +1,6 @@
 {
   "pages": [
+    
     "pages/index/index",
     "myuser/main/main",
     "pages/trends/trends",
@@ -36,19 +37,19 @@
       },
       {
         "pagePath": "pages/job/job",
-        "text": "动态",
+        "text": "工作",
         "iconPath": "imgs/job.png",
         "selectedIconPath": "imgs/job_select.png"
       },
       {
         "pagePath": "study/study/study",
-        "text": "动态",
+        "text": "学习",
         "iconPath": "imgs/studywrite.png",
         "selectedIconPath": "imgs/study.png"
       },
       {
         "pagePath": "myuser/main/main",
-        "text": "动态",
+        "text": "个人",
         "iconPath": "imgs/people.png",
         "selectedIconPath": "imgs/user_red.png"
       }
