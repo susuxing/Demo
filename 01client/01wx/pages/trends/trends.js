@@ -114,9 +114,10 @@ Page({
     });
   },
   onclicktip:function(){
-    wx.redirectTo({
-      url: '../logs/logs',
-    });
+    console.log("你好");
+    wx.navigateTo({
+      url: '../trendsback/trendsback'
+    })
   },
   onclickFind: function (res) {
     let change = res.currentTarget.dataset.find;
