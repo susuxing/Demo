@@ -20,7 +20,7 @@ Page({
   },
   toOther: function () {
     wx.navigateTo({
-      url: '../job/job',
+      url: '../cultivate/cultivate',
     })
   }
 })

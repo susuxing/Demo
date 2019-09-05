@@ -1,17 +1,7 @@
 .first{
-  height: 100px;
-  background-color: gainsboro;
+  font-size: 25px;
 }
-.content{
 
-
-}
-.state{
-  width: 100px;
-  height: 20px;
-  
-  background-color: rgb(72, 245, 72);
-}
 
 
 

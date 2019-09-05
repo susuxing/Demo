@@ -3,7 +3,7 @@
 
   <view class="studyBox">
     <view class="usermott" bindtap='toOther'>
-      <image class="logo load" src="../../imgs/1.png"></image>
+      <image class="logo" src="../../imgs/线下培训.png"></image>
       <view class="txt"> 线下培训</view>
     </view>
     <view class="usermott" bindtap='toOther'>

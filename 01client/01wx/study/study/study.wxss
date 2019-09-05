@@ -1,6 +1,6 @@
 .container{
-  margin: 0px;
-  padding: 0px;
+  margin: 0rpx;
+  padding: 0rpx;
 }
 .page {
   background-color:#F9F9F9;
@@ -12,7 +12,7 @@
   flex-wrap:wrap;
   width: 100%;
   height: 100%;
-  margin-top: 1px;
+  margin-top: 3rpx;
 }
 
 .usermott {
@@ -21,83 +21,84 @@
   height: 160rpx;
 }
 .logo {
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
   margin-top: 15%;
-  margin-left: 30%;
+  margin-left: 32.5%;
 }
-
 .txt {
   width: 100%;
   height: 40rpx;
   text-align: center;
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 30rpx;
 }
 .cultivate{
   width: 100%;
-  height: 810px;
+  height: 2200rpx;
   display: flex;
   flex-direction: column;
   background-color: rgb(238, 238, 238);
 }
 .backColor{  
   background-color: white;
-  margin-top: 10px;
+  margin-top: 30rpx;
 }
 .contentTitle{
-  height: 30px;
+  height: 110rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 20rpx;
 }
 .redLine{
-  width: 4px;
-  height: 20px;
+  width: 10rpx;
+  height: 60rpx;
   background-color: red;
-  margin-left: 4px;
+  margin-left: 12rpx;
 }
 .cultivateT{
-  width:100px;
-  margin-left: 5px;
-  font-size: 15px;
+  width:300rpx;
+  margin-left: 15rpx;
+  font-size: 40rpx;
 }
 .more{
-  margin-left: 50%;
-  font-size: 13px;
+  margin-left: 40%;
+  font-size: 33rpx;
   color: grey;
 }
-.more image{
-  width: 15px;
-  height: 15px;
+.iconright{
+  width: 30rpx;
+  height: 30rpx;
 }
 .ContentL{
-  margin-left: 14px;
-  margin-top: 10px;
-  margin-right: 14px;
-  border-bottom: 1px solid rgb(224, 224, 224);
+  margin: 3% 1%;
+  padding: 3%; 
+  border-bottom: 2rpx solid rgb(224, 224, 224);
 }
 .Content{
-  margin-left: 14px;
-  margin-top: 10px;
-  margin-right: 14px;  
+  margin: 0% 4%;
 }
 .font{
-  font-size: 14px;
+  height: 50rpx;
+  width: 100%;
+  overflow: hidden;
+  font-size: 37rpx;
+  text-overflow: ellipsis;
 }
 .adress{
-  font-size: 13px;
+  font-size: 34rpx;
   color: grey;
-  margin-top: 5px;
+  margin-top: 2%;
 }
 .time{
-  font-size: 11px;
+  font-size: 30rpx;
   color: grey;
-  margin-top: 5px;
+  margin-top: 2%;
 }
 .contentImg{
-  width: 150px;
-  height: 90px;
+  width: 300rpx;
+  height: 200rpx;
 }
 
 

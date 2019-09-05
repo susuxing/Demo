@@ -2,10 +2,9 @@
   "pages": [
     "pages/index/index",
     "myuser/main/main",
-    "study/study/study",
     "pages/trends/trends",
-    
     "pages/logs/logs",
+    "study/study/study",
     "pages/job/job",
     "home/01page/01page",
     "home/work/work",
