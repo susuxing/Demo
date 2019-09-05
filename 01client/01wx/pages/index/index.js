@@ -6,6 +6,7 @@ Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
+    bool:true,
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
@@ -18,6 +19,22 @@ Page({
       }
     })
   },
+  handleClick1() {
+    if (!this.data.bool) {
+      this.setData({
+        bool: !this.data.bool
+      })
+    }
+  },
+  handleClick2() {
+    if (this.data.bool) {
+      this.setData({
+        bool: !this.data.bool
+      })
+    }
+
+  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

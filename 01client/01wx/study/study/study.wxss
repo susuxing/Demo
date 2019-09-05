@@ -89,16 +89,17 @@
 .adress{
   font-size: 34rpx;
   color: grey;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .time{
   font-size: 30rpx;
   color: grey;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .contentImg{
   width: 300rpx;
   height: 200rpx;
+  margin-top: 1%;
 }
 
 

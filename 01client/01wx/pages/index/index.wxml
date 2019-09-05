@@ -1,14 +1,15 @@
 <!--index.wxml-->
-<view class="">
   <view class="top">
    <view class="image"> <image class="img" src="../../imgs/img.png"></image></view>
   
-  <view class="logo">
-  <view class="idlogo">账号登录</view>
-  <view class="phone">手机登录</view>
+  <view class="login">
+  <view class="account" catchtap="handleClick1">账号登录</view>
+  <view class="phone" catchtap="handleClick2">手机登录</view>
   </view>
   </view>
 
+
+<view class="id-login" id="id-login" wx:if='{{bool}}'>
 <view class="item">
   <view class="itemView">
       <image class="icon" src="../../imgs/User Settings.png"></image>
@@ -26,10 +27,29 @@
      登录 
   </button>
 
-  
-
   <view class="bottom">
    <view style="color:#D24940;font-size:35rpx;">免注册点击体验</view>
    <view style="color:#cdcdcd;font-size:35rpx;">忘记密码</view>
   </view>
+</view>
+
+
+<view class="phone-login" id="phone-login" wx:else='{{!bool}}'>
+<view class="item">
+  <view class="itemView">
+      <image class="icon" src="../../imgs/User Settings.png"></image>
+      <input class="input" name="userName" placeholder="请输入用户名" 
+      bindinput="userNameInput"/>
+    </view>
+  <view class="itemView">
+      <image class="icon" src="../../imgs/key.png"></image>
+      <input class="input" password placeholder="请输入验证码"
+      bindinput="passWdInput" />
+    </view>
+</view>
+   
+  <button class='box button' url='../../home/01page/01page' open-type="redirectTo" bindtap="bindViewTap">
+     登录 
+  </button>
+
 </view>

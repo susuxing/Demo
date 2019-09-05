@@ -3,69 +3,69 @@
 
   <view class="studyBox">
     <view class="usermott" bindtap='toOther'>
-      <image class="logo" src="../../imgs/线下培训.png"></image>
+      <image class="logo" src="../../imgs/study1.png"></image>
       <view class="txt"> 线下培训</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-      <image class="logo" src="../../imgs/网络课程.png"></image>
+      <image class="logo" src="../../imgs/study2.png"></image>
       <view class="txt"> 网络课程</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/师资.png"></image>
+    <image class="logo" src="../../imgs/study3.png"></image>
       <view class="txt"> 师资表</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/资料中心.png"></image>
+    <image class="logo" src="../../imgs/study4.png"></image>
       <view class="txt"> 资料中心</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/廉政建设.png"></image>
+    <image class="logo" src="../../imgs/study5.png"></image>
       <view class="txt"> 廉政建设</view>
     </view>
   </view>
 
       <view class="studyBox">
     <view class="usermott" bindtap='toOther'>
-      <image class="logo" src="../../imgs/活动.png"></image>
+      <image class="logo" src="../../imgs/study6.png"></image>
       <view class="txt"> 活动剪影</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-      <image class="logo" src="../../imgs/警示案例.png"></image>
+      <image class="logo" src="../../imgs/study7.png"></image>
       <view class="txt"> 警示案例</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/学习.png"></image>
+    <image class="logo" src="../../imgs/study8.png"></image>
       <view class="txt"> 中心组学习</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/活动.png"></image>
+    <image class="logo" src="../../imgs/study9.png"></image>
       <view class="txt"> 主题活动</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/党务知识.png"></image>
+    <image class="logo" src="../../imgs/study10.png"></image>
       <view class="txt"> 党务知识</view>
     </view>
   </view>
 
   <view class="studyBox">
     <view class="usermott" bindtap='toOther'>
-      <image class="logo" src="../../imgs/考试中心.png"></image>
+      <image class="logo" src="../../imgs/study11.png"></image>
       <view class="txt"> 考试中心</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-      <image class="logo" src="../../imgs/红歌精选.png"></image>
+      <image class="logo" src="../../imgs/study12.png"></image>
       <view class="txt"> 红歌精选</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/党建文章.png"></image>
+    <image class="logo" src="../../imgs/study13.png"></image>
       <view class="txt"> 党建文章</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/公示.png"></image>
+    <image class="logo" src="../../imgs/study14.png"></image>
       <view class="txt"> 奖罚公示</view>
     </view>
     <view class="usermott" bindtap='toOther'>
-    <image class="logo" src="../../imgs/党员论坛.png"></image>
+    <image class="logo" src="../../imgs/study15.png"></image>
       <view class="txt"> 党员论坛</view>
     </view>
   </view>
@@ -109,7 +109,7 @@
       <view class="more" bindtap='toOther'>更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
     <view class="Content" bindtap='toOther'>
-      <image class="contentImg" src="../../imgs/活动剪影.jpg"></image>
+      <image class="contentImg" src="../../imgs/study16.jpg"></image>
       <view class="font">北京世园会迎来“阿富汗国家日”</view>
     </view>
   </view>
@@ -122,7 +122,7 @@
       <view class="more">更多<image class="iconright" src="../../imgs/right.png"></image></view>
     </view>
     <view class="Content" bindtap='toOther'>
-      <image class="contentImg" src="../../imgs/活动.jpg"></image>
+      <image class="contentImg" src="../../imgs/study17.jpg"></image>
       <view class="font">习近平在中央党校</view>
     </view>
   </view>

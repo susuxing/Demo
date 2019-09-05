@@ -1,6 +1,7 @@
 { 
   
   "navigationBarTitleText": "工作",
+  "navigationBarBackgroundColor": "#E03428",
   
   "backgroundTextStyle": "light"
 }
