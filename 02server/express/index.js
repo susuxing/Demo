@@ -19,6 +19,10 @@ let urlencodedParser = bodyParser.urlencoded({
   });
   let ip="http://localhost:";
   let port=8888;
+
+  let indexController1 = require("./controllers/IndexController");
+  app.get("/trends", indexController1.index);
+
   let indexController=require("./controllers/IndexControllers");
   app.get("/myuser",indexController.index)
 

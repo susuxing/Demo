@@ -19,7 +19,6 @@ getAllCourse(callback) {
         return;
       }
       callback(result);
-      console.log(result);
     });
   }
 }
