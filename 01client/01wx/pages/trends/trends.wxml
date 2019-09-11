@@ -28,9 +28,9 @@
 
   <view class="lunbo">
     <swiper indicator-dots='true' indicator-active-color='#E33A35' autoplay='true' duration='{{1000}}' interval='{{2000}}' circular='true' >
-      <view wx:for='{{imgUrls}}' wx:key="index">
+      <view wx:for='{{imgUrls}}' wx:key="index" wx:for-item="url">
         <swiper-item>
-          <image src='{{item}}' style="height:100%;width:100%"></image>
+          <image src='{{url.url}}' style="height:100%;width:100%"></image>
         </swiper-item>
       </view>
     </swiper>
