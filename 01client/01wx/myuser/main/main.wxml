@@ -12,31 +12,24 @@
   </navigator>
   <!-- 我的收藏，我的评论，浏览历史 -->
   <view class="nav">
-    <navigator url="../new/new" open-type="navigateTo">
-      <view><image src="../../imgs/collection.png" class="navimg"></image></view>
-      <view class="navwords">我的收藏</view>
+    <navigator url="../new/new" open-type="navigateTo" wx:for="{{navis}}" wx:key="index" wx:for-item="navi">
+      <view><image src='{{navi.address}}' class="navimg"></image></view>
+      <view class="navwords">{{navi.name}}</view>
     </navigator>
 
-    <navigator url="../new/new" open-type="navigateTo">
-      <view><image src="../../imgs/comment.png" class="navimg"></image></view>
-      <view class="navwords">我的评论</view>
-    </navigator>
-
-    <navigator url="../new/new" open-type="navigateTo">
-      <view><image src="../../imgs/history.png" class="navimg"></image></view>
-      <view class="navwords">浏览历史</view>
-    </navigator>
   </view>
   <!-- 长栏目 -->
-  <view class="long">
-    <navigator url="../new/new" open-type="navigateTo" class="lattice">
-      <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
-      <view class="latticewords">组织工作</view>
+  <view class="long" >
+    <navigator url="../new/new" open-type="navigateTo" class="lattice" wx:for="{{longs}}" wx:key="index" wx:for-item="long">
+      <view class="long-top"><view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
+      <view class="latticewords">{{long.title}}</view>
       <view class="right">></view>
+      </view>
+      <view class="line"></view>
     </navigator>
-    <view class="line"></view>
+    
 
-    <navigator url="../new/new" open-type="navigateTo" class="lattice">
+    <!-- <navigator url="../new/new" open-type="navigateTo" class="lattice">
       <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
       <view class="latticewords">我的组织</view>
       <view class="right">></view>
@@ -76,16 +69,16 @@
       <view class="latticewords">书记信箱</view>
       <view class="right">></view>
     </navigator>
-    <view class="line"></view>
+    <view class="line"></view>-->
 
-    <view class="lattice" bindtap='phoneCall'>
+    <view class="lattice1" bindtap='phoneCall'>
       <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
       <view class="latticewords">Call我吧</view>
       <view class="right">></view>
     </view>
-    <view class="line"></view>
+    <view class="line"></view> 
 
-    <navigator url="../new/new" open-type="navigateTo" class="lattice">
+    <navigator url="../new/new" open-type="navigateTo" class="lattice1">
       <view><image src="../../imgs/collection.png" class="latticeimg"></image></view>
       <view class="latticewords">在线客服</view>
       <view class="right">></view>

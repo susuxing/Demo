@@ -1,5 +1,6 @@
 {
   "pages": [
+    
     "pages/index/index",
     "study/upload/upload",
     "study/cultivate/cultivate",
