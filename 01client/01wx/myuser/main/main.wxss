@@ -57,6 +57,16 @@
 }
 .lattice{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.lattice1{
+  display: flex;
+  flex-direction: row;
+   height: 80rpx;
+   align-items: center;
+}
+.long-top{
   height: 80rpx;
   display: flex;
   flex-direction: row;
