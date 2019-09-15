@@ -2,7 +2,7 @@
   custom   定制  default 默认  
   "navigationStyle": "custom" -->
 <view class='title'>
-  <image src='../../imgs/xiaoyu.png' class='icon' bindtap="to01page"></image>
+  <image src='../../imgs/xiaoyu.png' class='icon' bindtap="tohome"></image>
   文档库
 </view>
 

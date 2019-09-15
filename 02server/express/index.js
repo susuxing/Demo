@@ -19,6 +19,8 @@ let urlencodedParser = bodyParser.urlencoded({
   });
   let ip="http://localhost:";
   let port=8888;
+  let homeController=require('./controllers/HomeController');
+app.get('/home',homeController.home);  
 
   let indexController1 = require("./controllers/IndexController");
   app.get("/trends", indexController1.index);
@@ -27,5 +29,5 @@ let urlencodedParser = bodyParser.urlencoded({
   app.get("/myuser",indexController.index)
 
   app.listen(port, function() {
-    console.log("启动");
+    console.log("running");
   });

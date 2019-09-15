@@ -1,16 +1,10 @@
 //index.js
 //获取应用实例
 
-const app = getApp()
+let app = getApp()
 Page({
   data: {
-    imgUrls: [
-      'https://images-1300072974.cos.ap-chengdu.myqcloud.com/u%3D1985464711%2C3130247605%26fm%3D26%26gp%3D0.jpg',
-      'https://4-1300072974.cos.ap-chengdu.myqcloud.com/untitled.png',
-      'https://6-1300072974.cos.ap-chengdu.myqcloud.com/u%3D3220745536%2C1855392985%26fm%3D26%26gp%3D0.jpg',
-      'https://8-1300072974.cos.ap-chengdu.myqcloud.com/u%3D137301959%2C1577441612%26fm%3D26%26gp%3D0.jpg'
-      
-    ]
+
   },
   towork: function () {
     wx.navigateTo({
@@ -66,6 +60,28 @@ Page({
     })
   },
   onLoad: function () {
+     let that=this;
+     //获得后台服务的数据
+     wx.request({
+       url: 'http://localhost:8088/home',
+       success:function(res){
+         console.log(res);
+         if(res.statusCode==200){
+           console.log(res);
+           console.log(res.data);
+           let swipers=res.data.swipers;
+           let homelistItem=res.data.homelistItem;
+           let contents=res.data.contents;
+           that.setData({
+             swipers:swipers,
+             homelistItem: homelistItem,
+             contents:contents
 
+           });
+
+          
+         }
+       }
+     })
   }
 })

@@ -1,0 +1,52 @@
+<view class="body">
+  <scroll-view style='width:100%; height: 100%; ' scroll-y="true">
+    <swiper indicator-dots='true' autoplay='true' indicator-active-color='#E33A35' duration='{{500}}' interval='{{1000}}'>
+      <view wx:for='{{swipers}}' wx:key="index" wx:for-item="url">
+        <swiper-item>
+          <image class='img swiper-head' src='{{url.url}}'></image>
+        </swiper-item>
+      </view>
+    </swiper>
+<!-- <-- homelist------  contents -->
+
+    <!-- <view class="listBox" wx:for='{{homelist}}' wx:key='index' wx:for-item='{{list}}'>
+        <view class='Box' bindtap="{{list.tos}}">
+          <view class="list">
+            <image class="icons" src='{{list.icons}}'></image>
+          </view>
+          <view class='fonts'>{{list.words}}</view>
+        </view>
+      </view>   -->
+      <view class="listBox">
+        <!-- <view class="Box" > -->
+          <view class="Box" wx:for="{{homelistItem}}" wx:key="index" wx:for-item="homelist" bindtap="{{homelist.tos}}">
+            <view class="icbg"><image class="icons" src="{{homelist.icons}}"></image></view>
+            <view class="list_font">{{homelist.words}}</view>
+          </view>
+        </view>
+      <!-- </view> -->
+
+
+
+    <!-- 动画栏     -->
+
+
+
+
+
+
+
+
+    <!-- contents        -->
+    <view class="content" wx:for="{{contents}}" wx:key="index" wx:for-item="words">
+      <view class="wordfont">{{words.words}}</view>
+      <view class="times">{{words.times}}</view>
+      <view class="contentline"></view>
+    </view>
+    <!-- footer----contents -->
+
+    <view class="footer">
+      我也是有底线的
+    </view>
+  </scroll-view>
+</view>

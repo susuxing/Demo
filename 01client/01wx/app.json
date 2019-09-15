@@ -9,7 +9,7 @@
     "pages/logs/logs",
     "study/study/study",
     "pages/job/job",
-    "home/home/01page",
+    "home/home/home",
     "home/work/work",
     "home/democratic/democratic",
     "home/document/document"
@@ -26,7 +26,7 @@
     "color": "#b1b5bd",
     "list": [
       {
-        "pagePath": "home/home/01page",
+        "pagePath": "home/home/home",
         "text": "首页",
         "iconPath": "imgs/home.png",
         "selectedIconPath": "imgs/home_selected.png"

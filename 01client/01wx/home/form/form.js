@@ -16,7 +16,7 @@ Page({
   },
   tohome: function () {
     wx.navigateTo({
-      url: '../home/01page',
+      url: '../home/home',
     })
   },
 
